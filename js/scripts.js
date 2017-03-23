@@ -1,10 +1,11 @@
+//Coffee Bar Graph
 var coffeeData = {
   type: "bar",  // Specify your chart type here.
   plot: {
     "background-color": "red pink",
   },
   title: {
-    text: "Favorite Coffee" // Adds a title to your chart
+    text: "Style" // Adds a title to your chart
   },
   "scale-x": {
   "labels": ["Latte", "Americano", "Espresso", "Mocha", "Cappuccino"]
@@ -17,10 +18,11 @@ var coffeeData = {
 zingchart.render({ // Render Method[3]
   id: "chartCoffee",
   data: coffeeData,
-  height: 400,
-  width: '50%'
+  height: 350,
+  width: '40%'
 });
 
+//Pie Coffee Graph
 var myCoffeeTwo = {
   type: "pie",
   title: {
@@ -40,6 +42,54 @@ var myCoffeeTwo = {
 zingchart.render({
   id:'chartCoffeeTwo',
   data: myCoffeeTwo,
-  height: 400,
-  width:'50%'
+  height: 350,
+  width: '30%'
+});
+
+//Dairy Bar Graph
+var dairyData = {
+  type: "bar",  // Specify your chart type here.
+  plot: {
+    "background-color": "blue pink",
+  },
+  title: {
+    text: "Flavor" // Adds a title to your chart
+  },
+  "scale-x": {
+  "labels": ["Skim", "2%", "Almond", "Cashew", "Soy"]
+},
+  legend: {}, // Creates an interactive legend
+  series: [  // Insert your series data here.
+    { values: [60, 20, 50, 13, 89]}
+  ]
+};
+zingchart.render({ // Render Method[3]
+  id: "chartDairy",
+  data: dairyData,
+  height: 350,
+  width: '30%'
+});
+
+//Pie Dairy Graph
+var dairyDataPie = {
+  type: "pie",
+  title: {
+    text: "Dairy vs. NonDairy"
+  },
+  series:[
+    {
+      "values": [45],
+      "background-color": "blue pink"
+    },
+    {
+      "values":[55],
+      "background-color": "pink blue",
+    }
+  ]
+};
+zingchart.render({
+  id:'pieDairy',
+  data: dairyDataPie,
+  height: 350,
+  width:'30%'
 });
