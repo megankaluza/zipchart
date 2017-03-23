@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+
+@import 'base/index';
+
+h1 {
+  font-family: 'Fascinate Inline', cursive;
+  text-align: center;
+}
+
+.black {
+  background-color: black;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+}
