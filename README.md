@@ -1,15 +1,18 @@
+## Description
+
+![screenshot](img/screen_shot.png)
 
 # [ZingChart](https://www.zingchart.com/)
 
 Build v2.5.2
 
-A declarative, efficient, and simple JavaScript library for building responsive charts. With integrations in Angular, React, JQuery, PHP, Ember, & Backbone. 
+A declarative, efficient, and simple JavaScript library for building responsive charts. With integrations in Angular, React, JQuery, PHP, Ember, & Backbone.
 
-## Resources: 
+## Resources:
 * [Getting Started Guide](https://www.zingchart.com/docs/getting-started/your-first-chart/)
-* [Docs](http://www.zingchart.com/docs) 
+* [Docs](http://www.zingchart.com/docs)
 * [API Docs](https://www.zingchart.com/docs/developers/api-events/)
-* [Demos Gallery](https://www.zingchart.com/gallery/) 
+* [Demos Gallery](https://www.zingchart.com/gallery/)
 * [Download](https://www.zingchart.com/try/)
 * [Support](https://help.zingchart.com/hc/en-us)
 * [Stack Overflow](http://stackoverflow.com/search?q=zingchart)

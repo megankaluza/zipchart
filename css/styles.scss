@@ -1,10 +1,11 @@
 //Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
 
+//SCSS
 @import 'base/index';
 
 h1 {
-  color: $rose;
+  color: $red-brown;
   font-family: $stack-fascinate;
 }
 
@@ -19,6 +20,7 @@ h2 {
 footer {
   font-family: $stack-fascinate;
   text-align: center;
+  width: 100%;
 }
 
 .black {
@@ -27,6 +29,7 @@ footer {
   box-shadow: 5px 5px 30px $black;
   display: flex;
   height: 100px;
+  width: 100%;
 }
 
 .container {
